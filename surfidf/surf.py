@@ -25,7 +25,7 @@ for frame in range(0, pipeline.source.num_frames, 1):
             fraction))
 time_end = time.time()
 tsp = time_end - time_start
-print('OVER in %f ! └(^o^)┘ ' %tsp)
+print('OVER in %f ! ^o^ ' %tsp)
 
 # convert list to numpy.array for plot and output
 cdt.append(data.attributes['ConstructSurfaceMesh.surface_area'])
