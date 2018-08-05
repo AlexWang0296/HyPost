@@ -9,7 +9,7 @@ import time
 time_start=time.time()
 # import file
 pipeline = import_file("source/dtest.*.dump")
-print(pipeline.source.num_frames)
+print("%s frame(s) in all" %pipeline.source.num_frames)
 # create list stepstr to save frame output
 cdt= [];
 #inti = frame+10
