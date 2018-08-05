@@ -34,6 +34,7 @@ time_end=time.time()
 print('totally cost',time_end-time_start)
 pxx = range(np.size(surfid))
 plt.plot(pxx, surfid)
-plt.savefig('surface.pdf')
+plt.savefig('cracksurface.pdf')
+
 
 
