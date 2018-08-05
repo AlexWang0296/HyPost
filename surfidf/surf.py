@@ -13,7 +13,7 @@ print("%s frame(s) in all" %pipeline.source.num_frames)
 # create list stepstr to save frame output
 cdt= [];
 #inti = frame+10
-for frame in range(0,pipeline.source.num_frames,1):
+for frame in range(0, pipeline.source.num_frames, 1):
     pipeline.modifiers.append(ConstructSurfaceModifier(radius=2.9))
     data = pipeline.compute(frame)
     data.expect(SurfaceMesh)
