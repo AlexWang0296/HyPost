@@ -8,7 +8,7 @@ import time
 
 time_start=time.time()
 # import file
-pipeline = import_file("source/dtest.*.dump")
+pipeline = import_file('source/dtest.*.dump')
 print("%s frame(s) in all \nframe area vol vol_fraction" %pipeline.source.num_frames)
 # create list stepstr to save frame output
 cdt= [];
@@ -29,11 +29,12 @@ print('OVER in %f ! ^o^ ' %tsp)
 
 # convert list to numpy.array for plot and output
 cdt.append(data.attributes['ConstructSurfaceMesh.surface_area'])
-surfid = array(cdt)
+surfid = np.array(cdt)
 np.savetxt("surface.txt", surfid, fmt="%2.3f", delimiter=" ")
 pxx = range(np.size(surfid))
 plt.plot(pxx, surfid)
 plt.savefig('cracksurface.pdf')
+
 
 
 
