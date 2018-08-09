@@ -1,6 +1,7 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
-from numpy import array
+#from numpy import array
 from ovito.io import import_file
 from ovito.data import SurfaceMesh, SimulationCell
 from ovito.modifiers import ConstructSurfaceModifier
@@ -19,6 +20,8 @@ for frame in range(0, pipeline.source.num_frames, 1):
     data.expect(SurfaceMesh)
     cell = data.expect(SimulationCell)
     fraction = data.attributes['ConstructSurfaceMesh.solid_volume'] / cell.volume
+    cdt.append(data.attributes['ConstructSurfaceMesh.surface_area'])
+
     print("%s/%s %f %f %f" %(frame, pipeline.source.num_frames,\
             data.attributes['ConstructSurfaceMesh.surface_area'],\
             data.attributes['ConstructSurfaceMesh.solid_volume'],\
@@ -28,13 +31,12 @@ tsp = time_end - time_start
 print('OVER in %f ! ^o^ ' %tsp)
 
 # convert list to numpy.array for plot and output
-cdt.append(data.attributes['ConstructSurfaceMesh.surface_area'])
 surfid = np.array(cdt)
 np.savetxt("surface.txt", surfid, fmt="%2.3f", delimiter=" ")
-pxx = range(np.size(surfid))
+pxx = range(len(surfid))
 plt.plot(pxx, surfid)
 plt.savefig('cracksurface.pdf')
-
-
+plt.show()
+print(os.path.abspath(__file__))
 
 
