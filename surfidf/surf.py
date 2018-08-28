@@ -9,12 +9,16 @@ import time
 print(os.path.abspath(__file__))
 time_start = time.time()
 # import file
-pipeline = import_file('source/dtest.*.dump')
+fpath  = input("Path to Source File:\n")
+pgap = int(input("Process every N Step:\n"))
+
+# 'source/dtest.*.dump'
+pipeline = import_file(fpath)
 print("%s frame(s) in all \nframe area vol vol_fraction" %pipeline.source.num_frames)
 # create list stepstr to save frame output
 cdt = []
 #inti = frame+10
-for frame in range(0, pipeline.source.num_frames, 1):
+for frame in range(0, pipeline.source.num_frames, pgap):
     pipeline.modifiers.append(ConstructSurfaceModifier(radius=2.9))
     data = pipeline.compute(frame)
     data.expect(SurfaceMesh)
@@ -36,7 +40,6 @@ np.savetxt("surface.txt", surfid, fmt="%2.3f", delimiter=" ")
 pxx = range(len(surfid))
 plt.plot(pxx, surfid)
 plt.show()
-
-plt.savefig('cracksurface.pdf')
+plt.savefig('CrackSurface.pdf')
 
 

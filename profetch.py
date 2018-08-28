@@ -6,6 +6,7 @@ from ovito.modifiers import BinAndReduceModifier
 # import file
 pipeline = import_file("/PATH/TO/File")
 # create list stepstr to save frame output
+# file name format: "100.*.lammpstrj"/"100.*.gin"
 stepstr = [];
 for frame in range(pipeline.source.num_frames):
     # slice y
@@ -34,4 +35,4 @@ for frame in range(pipeline.source.num_frames):
 # convert list to numpy.array for plot and output
 output = array(stepstr)
 np.savetxt("processed.txt", output, fmt="%2.3f", delimiter=" ")
-print('OVER ! └(^o^)┘ ')
+print('OVER ! ')
