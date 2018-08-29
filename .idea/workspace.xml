@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="add new">
-      <change afterPath="$PROJECT_DIR$/ExPlotly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/par/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/par/pat1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/par/sftp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strecont/RemoteBin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strecont/contplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strecont/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strecont/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strecont/2.png" beforeDir="false" />
-    </list>
+    <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +38,7 @@
     <session id="-1382159178">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
@@ -76,12 +65,12 @@
         <counts>
           <entry key="Python Console" value="31" />
           <entry key="py" value="2687" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="47" />
           <entry key="Python" value="2718" />
         </counts>
       </usages-collector>
@@ -361,6 +350,14 @@
       <option name="presentableId" value="Default" />
       <updated>1535347579190</updated>
     </task>
+    <task id="LOCAL-00001" summary="plot remote">
+      <created>1535550953083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535550953083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -398,7 +395,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new" />
+    <MESSAGE value="plot remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="plot remote" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/profetch.py">

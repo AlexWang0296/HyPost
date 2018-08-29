@@ -1,0 +1,4 @@
+ERROR on proc 0: Cannot open input script 0.txt (../lammps.cpp:329)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+ERROR on proc 0: Cannot open input script 0.txt (../lammps.cpp:329)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
