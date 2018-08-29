@@ -2,6 +2,8 @@ import os
 import paramiko
 import numpy as np
 from scipy import signal
+from scipy import ndimage as nmg
+from PIL import ImageFilter
 import matplotlib.pyplot as plt
 os.chdir(os.path.dirname(__file__))
 # setup SSH
@@ -14,7 +16,7 @@ ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh_client.connect(hostname='124.152.228.80', port=10000, username='LUTRuizy', password='123456')
 # process parameters
-frame = 2
+frame = 230
 pos = 'ag'
 size = '15'
 width = 5
@@ -28,16 +30,21 @@ transport.close()
 ssh_client.close()
 # load data
 u = np.loadtxt('pltdata/data/cont%s.txt'%frame)
-v = signal.spline_filter(u,lmbda=1.5)
+#domain = np.identity(9)
+#v = signal.spline_filter(u,15)
+v = nmg.filters.gaussian_filter(u,1)
+# w = u.filter(ImageFilter.BLUR)
+
 # full path: /pltda/home/alex/Documents/HyPost/strecont/pltdata/data/cont125.txtta/data/cont125.txt
 plx = np.linspace(0,100,100)
 ply = np.linspace(0,100,100)
 px, py = np.meshgrid(plx,ply)
-plt.contourf(px,py,v,5,alpha=0.8,cmap="RdBu_r")
-# cmap=plt.cm.je
+plt.contourf(px,py,v,5,alpha=1,cmap="RdBu_r")
+# cmap=plt.cm.jet
 # plt.linewidth=1.5 alpha=1,
 plt.title('frame:%s position:%s size:%s'%(frame,pos,size))
 plt.colorbar()# lorbar()
-plt.show()
+#plt.show()
 #plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
 plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
+
