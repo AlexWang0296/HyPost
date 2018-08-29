@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="add new">
-      <change afterPath="$PROJECT_DIR$/remote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strecont/ExCont.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HyPost.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HyPost.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profetch.py" beforeDir="false" afterPath="$PROJECT_DIR$/profetch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surfidf/cracksurface.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/surfidf/cracksurface.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surfidf/source/dtest.0.dump" beforeDir="false" afterPath="$PROJECT_DIR$/source/dtest.0.dump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surfidf/source/dtest.1.dump" beforeDir="false" afterPath="$PROJECT_DIR$/source/dtest.1.dump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surfidf/source/dtest.2.dump" beforeDir="false" afterPath="$PROJECT_DIR$/source/dtest.2.dump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surfidf/surf.py" beforeDir="false" afterPath="$PROJECT_DIR$/surfidf/surf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExPlotly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/par/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/par/pat1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/par/sftp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strecont/RemoteBin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strecont/contplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/2.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +20,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/HyPost$remote.coverage" NAME="remote Coverage Results" MODIFIED="1535428256847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HyPost$remote.coverage" NAME="remote Coverage Results" MODIFIED="1535510508551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HyPost$ExPlotly.coverage" NAME="ExPlotly Coverage Results" MODIFIED="1535547129637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HyPost$contplot.coverage" NAME="contplot Coverage Results" MODIFIED="1535548347053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
+    <SUITE FILE_PATH="coverage/HyPost$pat1.coverage" NAME="pat1 Coverage Results" MODIFIED="1535507204876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/par" />
     <SUITE FILE_PATH="coverage/HyPost$surf.coverage" NAME="surf Coverage Results" MODIFIED="1535421798308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/surfidf" />
     <SUITE FILE_PATH="coverage/HyPost$strbin.coverage" NAME="strbin Coverage Results" MODIFIED="1535424029747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
+    <SUITE FILE_PATH="coverage/HyPost$ExCont.coverage" NAME="ExCont Coverage Results" MODIFIED="1535544712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
+    <SUITE FILE_PATH="coverage/HyPost$RemoteBin.coverage" NAME="RemoteBin Coverage Results" MODIFIED="1535548025439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$profetch.coverage" NAME="profetch Coverage Results" MODIFIED="1535421383652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HyPost$sftp.coverage" NAME="sftp Coverage Results" MODIFIED="1535511075911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/par" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,38 +49,40 @@
     <session id="-1382159178">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="eps" value="1" />
-          <entry key="png" value="3" />
-          <entry key="py" value="5" />
+          <entry key="png" value="5" />
+          <entry key="py" value="31" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Image" value="5" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="30" />
-          <entry key="py" value="639" />
+          <entry key="Python Console" value="31" />
+          <entry key="py" value="2687" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="669" />
+          <entry key="Python" value="2718" />
         </counts>
       </usages-collector>
     </session>
@@ -83,31 +90,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/strecont/strbin.py">
+        <entry file="file://$PROJECT_DIR$/strecont/contplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="132">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remote.py">
+        <entry file="file://$PROJECT_DIR$/strecont/RemoteBin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strecont/ExCont.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="392">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,7 +125,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>eps</find>
+      <find>list</find>
+      <find>pltdata</find>
+      <find>pipeli</find>
+      <find>get</find>
+      <find>ovitos</find>
+      <find>Remote</find>
+      <find>tit</find>
+      <find>mean_stre_x</find>
+      <find>scip</find>
+      <find>124.152.228.80</find>
+      <find>RemoteBin</find>
+      <find>sftp</find>
+      <find>contour</find>
+      <find>cmp</find>
+      <find>linewid</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/strecont</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,8 +154,14 @@
       <list>
         <option value="$PROJECT_DIR$/surfidf/surf.py" />
         <option value="$PROJECT_DIR$/strecont/ExCont.py" />
-        <option value="$PROJECT_DIR$/strecont/strbin.py" />
         <option value="$PROJECT_DIR$/remote.py" />
+        <option value="$PROJECT_DIR$/par/pat1.py" />
+        <option value="$PROJECT_DIR$/strecont/strbin.py" />
+        <option value="$PROJECT_DIR$/par/sftp.py" />
+        <option value="$PROJECT_DIR$/strecont/cont.py" />
+        <option value="$PROJECT_DIR$/strecont/RemoteBin.py" />
+        <option value="$PROJECT_DIR$/ExPlotly.py" />
+        <option value="$PROJECT_DIR$/strecont/contplot.py" />
       </list>
     </option>
   </component>
@@ -145,11 +171,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
-    <option name="y" value="185" />
-    <option name="width" value="1370" />
-    <option name="height" value="1021" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="174" />
+    <option name="y" value="34" />
+    <option name="width" value="930" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,6 +191,11 @@
             <path>
               <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
               <item name="HyPost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyPost" type="462c0819:PsiDirectoryNode" />
+              <item name="surfidf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,52 +225,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.remote">
-    <configuration name="profetch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HyPost" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profetch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="remote" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HyPost" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remote.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strbin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.contplot">
+    <configuration name="ExCont" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +239,70 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/strbin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/ExCont.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExPlotly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HyPost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExPlotly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoteBin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HyPost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strecont" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/RemoteBin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HyPost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strecont" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/contplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="surf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sftp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,12 +319,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/surfidf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/par" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/surfidf/surf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/par/sftp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,18 +334,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.profetch" />
-      <item itemvalue="Python.surf" />
-      <item itemvalue="Python.strbin" />
-      <item itemvalue="Python.remote" />
+      <item itemvalue="Python.contplot" />
+      <item itemvalue="Python.sftp" />
+      <item itemvalue="Python.RemoteBin" />
+      <item itemvalue="Python.ExCont" />
+      <item itemvalue="Python.ExPlotly" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.remote" />
-        <item itemvalue="Python.strbin" />
-        <item itemvalue="Python.strbin" />
-        <item itemvalue="Python.surf" />
-        <item itemvalue="Python.profetch" />
+        <item itemvalue="Python.contplot" />
+        <item itemvalue="Python.RemoteBin" />
+        <item itemvalue="Python.ExPlotly" />
+        <item itemvalue="Python.contplot" />
+        <item itemvalue="Python.ExCont" />
       </list>
     </recent_temporary>
   </component>
@@ -310,29 +364,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="185" width="1370" height="1021" extended-state="0" />
+    <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27473363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17650215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31756756" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.11695279" side_tool="true" weight="0.2668919" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32995495" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.37032712" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8830472" visible="true" weight="0.2668919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.5203928" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.2671674" />
       <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
     </layout>
   </component>
@@ -354,38 +408,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/surfidf/surf.py">
+    <entry file="file://$PROJECT_DIR$/strecont/0.eps" />
+    <entry file="file://$PROJECT_DIR$/strecont/0.png" />
+    <entry file="file://$PROJECT_DIR$/par/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/par/get.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strecont/0.eps" />
-    <entry file="file://$PROJECT_DIR$/strecont/0.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/par/sftp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/par/pat1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surfidf/surf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/lib/_datasource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="613" selection-start-line="613" selection-end-line="613" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strecont/strbin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/cont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/pltdata/data/pdata125.txt" />
+    <entry file="file://$PROJECT_DIR$/strecont/pltdata/fig/cont125.png" />
+    <entry file="file://$PROJECT_DIR$/remote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="2320" selection-start-line="2320" selection-end-line="2320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/pltdata/data/cont120.txt" />
+    <entry file="file://$PROJECT_DIR$/strecont/ExCont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/paramiko/sftp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="860" selection-start-line="860" selection-end-line="860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExPlotly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote.py">
+    <entry file="file://$PROJECT_DIR$/strecont/RemoteBin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="392">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strecont/ExCont.py">
+    <entry file="file://$PROJECT_DIR$/strecont/contplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="132">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
