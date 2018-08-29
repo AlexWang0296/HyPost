@@ -1,7 +1,9 @@
+import os
 import paramiko
 import numpy as np
 from scipy import signal
 import matplotlib.pyplot as plt
+os.chdir(os.path.dirname(__file__))
 # setup SSH
 transport = paramiko.Transport(('124.152.228.80', 10000))
 transport.connect(username='LUTRuizy', password='123456')
@@ -36,5 +38,6 @@ plt.contourf(px,py,v,5,alpha=0.8,cmap="RdBu_r")
 # plt.linewidth=1.5 alpha=1,
 plt.title('frame:%s position:%s size:%s'%(frame,pos,size))
 plt.colorbar()# lorbar()
-plt.savefig('pltdata/fig/%s-%s-%s.png'%(pos,size,frame))
 plt.show()
+#plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
+plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
