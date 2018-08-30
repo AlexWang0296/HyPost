@@ -11,7 +11,7 @@ print(os.path.abspath(__file__))
 time_start = time.time()
 # import file
 fpath  = input("Path to Source File:\n")
-label = fpath.split('/')[1]
+label = fpath.split('/')[0]
 #label = slice(fpath)[]
 pgap = int(input("Process every N Step:\n"))
 # /media/alex/HDD/post/ag/g-ag-300-opt/dump.*.cfg
@@ -29,10 +29,10 @@ for frame in range(0, pipeline.source.num_frames, pgap):
     vsolid = data.attributes['ConstructSurfaceMesh.solid_volume']
     cell = data.expect(SimulationCell)
     fraction = data.attributes['DislocationAnalysis.total_line_length'] / vsolid
-    with open('Dis_den_%s.txt'%label,'a+') as txt1:
+    with open('dislen_%s.txt'%label,'a+') as txt1:
         txt1.writelines('%f\n'%data.attributes['DislocationAnalysis.total_line_length'])
     lenlist.append(data.attributes['DislocationAnalysis.total_line_length'])
-    with open('Dis_len%s.txt'%label,'a+') as txt2:
+    with open('disden%s.txt'%label,'a+') as txt2:
         txt2.writelines('%f\n'%fraction)
     denlist.append(fraction)
     print("%s/%s %f  %f" %(frame, pipeline.source.num_frames,data.attributes['DislocationAnalysis.total_line_length'],fraction))
