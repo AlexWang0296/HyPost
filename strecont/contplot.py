@@ -42,9 +42,9 @@ px, py = np.meshgrid(plx,ply)
 plt.contourf(px,py,v,5,alpha=1,cmap="RdBu_r")
 # cmap=plt.cm.jet
 # plt.linewidth=1.5 alpha=1,
-plt.title('frame:%s position:%s size:%s'%(frame,pos,size))
+plt.title('frame:%s  position:%s  size:%s'%(frame,pos,size))
 plt.colorbar()# lorbar()
-#plt.show()
+plt.show()
 #plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
 plt.savefig('pltdata/fig/%s-%s-%s.pdf'%(pos,size,frame))
 
