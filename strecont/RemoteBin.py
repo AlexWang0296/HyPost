@@ -5,7 +5,7 @@ from ovito.io import import_file
 from os import listdir
 from ovito.modifiers import SliceModifier
 from ovito.modifiers import BinAndReduceModifier
-
+from ovito.data import SimulationCell
 pos = sys.argv[2]
 size = sys.argv[3]
 frame = sys.argv[1]
@@ -34,8 +34,15 @@ zslice = SliceModifier(normal=(0, 0, 1), slab_width = width)
 # pipeline.modifiers.append(yslice)
 pipeline.modifiers.append(zslice)
 binmdf = BinAndReduceModifier()
-binmdf.bin_count_x = 100
-binmdf.bin_count_y = 100
+#binmdf.bin_count_x = 100
+#binmdf.bin_count_y = 100
+cell = pipeline.compute().expect(SimulationCell)
+cellu = int(cell[0,0]/2)
+cellv = int(cell[1,1]/2)
+cellw = int(cell[2,2]/2)
+binmdf.bin_count_x = cellu
+binmdf.bin_count_y = cellv
+
 binmdf.property = "v_ES"
 binmdf.direction = BinAndReduceModifier.Direction.Vectors_1_2
 binmdf.reduction_operation = BinAndReduceModifier.Operation.Max
@@ -44,9 +51,7 @@ pipeline.compute()
 bprop = binmdf.bin_data
 gg = bprop.tolist()
 stepstr.append(gg)
+#np.savetxt("cont/cell_size%s.txt"%frame,cell, fmt="%2.3f", delimiter=" ")
 np.savetxt("cont/cont%s.txt"%frame, bprop, fmt="%2.3f", delimiter=" ")
 print('%s %s %s over'%(frame,pos,size))
 os.chdir('../../..')
-
-
-
