@@ -9,6 +9,10 @@ from ovito.data import SimulationCell
 pos = sys.argv[2]
 size = sys.argv[3]
 frame = sys.argv[1]
+if pos=='ia':
+    offset = -20
+else:
+    offset = 0
 width = int(eval(sys.argv[4]))
 
 os.chdir(os.path.join('sz','%ssz'%pos,'sz%s'%size))
@@ -29,7 +33,7 @@ stepstr = []
 # print("%s %s" %(pos,size))
 # yslice = SliceModifier(normal=(0, 1, 0), slab_w
 # slice z
-zslice = SliceModifier(normal=(0, 0, 1), slab_width = width)
+zslice = SliceModifier(normal=(0, 0, 1), slab_width = width,distance=offset)
 # apply modifiers to pipeline
 # pipeline.modifiers.append(yslice)
 pipeline.modifiers.append(zslice)

@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dxa/txttest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dxa/dislen.py" beforeDir="false" afterPath="$PROJECT_DIR$/dxa/dislen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/RemoteBin.py" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/RemoteBin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/contplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/contplot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont100.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont100.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont150.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont150.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont160.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont160.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont170.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont170.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont180.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont180.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strecont/pltdata/data/cont2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/data/cont200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-150.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-160.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-170.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-180.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/ag-15-200.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strecont/pltdata/fig/edited/.~lock.ag-15-2.pdf#" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +31,15 @@
     <SUITE FILE_PATH="coverage/HyPost$ExPlotly.coverage" NAME="ExPlotly Coverage Results" MODIFIED="1535547129637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HyPost$dxatest.coverage" NAME="dxatest Coverage Results" MODIFIED="1535614317013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$pat1.coverage" NAME="pat1 Coverage Results" MODIFIED="1535507204876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/par" />
+    <SUITE FILE_PATH="coverage/HyPost$cont.coverage" NAME="cont Coverage Results" MODIFIED="1537065906536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$remote.coverage" NAME="remote Coverage Results" MODIFIED="1535510508551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HyPost$contplot.coverage" NAME="contplot Coverage Results" MODIFIED="1535559483555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$txttest.coverage" NAME="txttest Coverage Results" MODIFIED="1535633593048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dxa" />
+    <SUITE FILE_PATH="coverage/HyPost$contplot.coverage" NAME="contplot Coverage Results" MODIFIED="1537102468155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$dislen.coverage" NAME="dislen Coverage Results" MODIFIED="1535631764699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$surf.coverage" NAME="surf Coverage Results" MODIFIED="1535421798308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/surfidf" />
     <SUITE FILE_PATH="coverage/HyPost$strbin.coverage" NAME="strbin Coverage Results" MODIFIED="1535424029747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$ExCont.coverage" NAME="ExCont Coverage Results" MODIFIED="1535544712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
-    <SUITE FILE_PATH="coverage/HyPost$RemoteBin.coverage" NAME="RemoteBin Coverage Results" MODIFIED="1535548025439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
+    <SUITE FILE_PATH="coverage/HyPost$RemoteBin.coverage" NAME="RemoteBin Coverage Results" MODIFIED="1537087352751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$profetch.coverage" NAME="profetch Coverage Results" MODIFIED="1535421383652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HyPost$sftp.coverage" NAME="sftp Coverage Results" MODIFIED="1535511075911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/par" />
   </component>
@@ -45,40 +61,44 @@
     <session id="-1382159178">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="eps" value="1" />
           <entry key="png" value="5" />
-          <entry key="py" value="36" />
-          <entry key="txt" value="11" />
+          <entry key="py" value="43" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="36" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="72" />
-          <entry key="py" value="3564" />
-          <entry key="txt" value="57" />
+          <entry key="cont" value="211" />
+          <entry key="contplot" value="24" />
+          <entry key="py" value="4469" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="57" />
-          <entry key="Python" value="3636" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Python" value="4776" />
         </counts>
       </usages-collector>
     </session>
@@ -116,7 +136,29 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strecont/RemoteBin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strecont/contplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,15 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eps</find>
-      <find>list</find>
-      <find>pltdata</find>
-      <find>pipeli</find>
-      <find>get</find>
-      <find>ovitos</find>
-      <find>Remote</find>
-      <find>tit</find>
-      <find>mean_stre_x</find>
       <find>scip</find>
       <find>124.152.228.80</find>
       <find>RemoteBin</find>
@@ -154,10 +187,23 @@
       <find>data</find>
       <find>data.attributes['DislocationAnalysis.total_line_length']</find>
       <find>fpath</find>
+      <find>e</find>
+      <find>linspace</find>
+      <find>bprop</find>
+      <find>V</find>
+      <find>pro</find>
+      <find>gaussian</find>
+      <find>width</find>
+      <find>slice</find>
+      <find>put</find>
+      <find>color</find>
+      <find>tit</find>
+      <find>ia</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/strecont</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/strecont/pltdata/fig</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -172,14 +218,14 @@
         <option value="$PROJECT_DIR$/par/pat1.py" />
         <option value="$PROJECT_DIR$/strecont/strbin.py" />
         <option value="$PROJECT_DIR$/par/sftp.py" />
-        <option value="$PROJECT_DIR$/strecont/cont.py" />
-        <option value="$PROJECT_DIR$/strecont/RemoteBin.py" />
         <option value="$PROJECT_DIR$/ExPlotly.py" />
-        <option value="$PROJECT_DIR$/strecont/contplot.py" />
         <option value="$PROJECT_DIR$/strecont/dxatest.py" />
         <option value="$PROJECT_DIR$/strecont/dislen.py" />
         <option value="$PROJECT_DIR$/dxa/txttest.py" />
         <option value="$PROJECT_DIR$/dxa/dislen.py" />
+        <option value="$PROJECT_DIR$/strecont/cont.py" />
+        <option value="$PROJECT_DIR$/strecont/contplot.py" />
+        <option value="$PROJECT_DIR$/strecont/RemoteBin.py" />
       </list>
     </option>
   </component>
@@ -190,10 +236,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="292" />
+    <option name="x" value="623" />
     <option name="y" value="34" />
-    <option name="width" value="910" />
-    <option name="height" value="812" />
+    <option name="width" value="890" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,7 +260,25 @@
             <path>
               <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
               <item name="HyPost" type="462c0819:PsiDirectoryNode" />
-              <item name="dxa" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyPost" type="462c0819:PsiDirectoryNode" />
+              <item name="strecont" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyPost" type="462c0819:PsiDirectoryNode" />
+              <item name="strecont" type="462c0819:PsiDirectoryNode" />
+              <item name="pltdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HyPost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HyPost" type="462c0819:PsiDirectoryNode" />
+              <item name="strecont" type="462c0819:PsiDirectoryNode" />
+              <item name="pltdata" type="462c0819:PsiDirectoryNode" />
+              <item name="fig" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,6 +288,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -246,30 +311,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.txttest">
-    <configuration name="ExPlotly" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HyPost" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExPlotly.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="contplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.contplot">
+    <configuration name="RemoteBin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,7 +325,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/contplot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/RemoteBin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cont" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HyPost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strecont" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/cont.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,20 +356,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dislen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="contplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dxa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strecont" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dxa/dislen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strecont/contplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,19 +420,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.contplot" />
-      <item itemvalue="Python.ExPlotly" />
-      <item itemvalue="Python.dislen" />
       <item itemvalue="Python.dxatest" />
       <item itemvalue="Python.txttest" />
+      <item itemvalue="Python.RemoteBin" />
+      <item itemvalue="Python.contplot" />
+      <item itemvalue="Python.cont" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.txttest" />
-        <item itemvalue="Python.txttest" />
-        <item itemvalue="Python.txttest" />
-        <item itemvalue="Python.dislen" />
-        <item itemvalue="Python.dislen" />
+        <item itemvalue="Python.contplot" />
+        <item itemvalue="Python.RemoteBin" />
+        <item itemvalue="Python.contplot" />
+        <item itemvalue="Python.contplot" />
+        <item itemvalue="Python.cont" />
       </list>
     </recent_temporary>
   </component>
@@ -413,19 +475,27 @@
       <option name="project" value="LOCAL" />
       <updated>1535617541616</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add plot">
+      <created>1537089554022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537089554022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27950644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32995495" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34993926" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39854193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3490991" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" visible="true" weight="0.3153153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -434,12 +504,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.11695279" side_tool="true" weight="0.2668919" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32922733" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8830472" visible="true" weight="0.39527026" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8830472" weight="0.24436937" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.7234513" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.40747663" visible="true" weight="0.27896994" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49906892" weight="0.24839056" />
+      <window_info anchor="right" x="0" y="0" width="430" height="846" id="Documentation" order="5" sideWeight="0.59252334" side_tool="true" weight="0.36266094" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +524,19 @@
     <MESSAGE value="plot remote" />
     <MESSAGE value="add cross platform" />
     <MESSAGE value="add DXA" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DXA" />
+    <MESSAGE value="add plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/profetch.py">
@@ -497,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strecont/cont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strecont/pltdata/data/pdata125.txt" />
     <entry file="file://$PROJECT_DIR$/strecont/pltdata/fig/cont125.png" />
     <entry file="file://$PROJECT_DIR$/remote.py">
@@ -515,13 +591,6 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py" />
     <entry file="file://$PROJECT_DIR$/strecont/pltdata/data/cont120.txt" />
-    <entry file="file://$PROJECT_DIR$/strecont/ExCont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/paramiko/sftp_client.py" />
     <entry file="file://$PROJECT_DIR$/ExPlotly.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -532,13 +601,6 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/matplotlib/cbook/__init__.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/scipy/signal/signaltools.py" />
-    <entry file="file://$PROJECT_DIR$/strecont/RemoteBin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dxa/dxatest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -553,47 +615,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strecont/contplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dxa/Dis_density.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dxa/Dis_length.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dxa/num.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dxa/txttest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dxa/Dis_density.txt" />
+    <entry file="file://$PROJECT_DIR$/dxa/Dis_length.txt" />
+    <entry file="file://$PROJECT_DIR$/dxa/num.txt" />
+    <entry file="file://$PROJECT_DIR$/dxa/txttest.py" />
     <entry file="file://$PROJECT_DIR$/dxa/dislen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/ExCont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/pltdata/data/cont151.txt" />
+    <entry file="file://$USER_HOME$/tool/anaconda3/lib/python3.6/site-packages/paramiko/sftp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="865" lean-forward="true" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tool/anaconda3/lib/python3.6/site-packages/matplotlib/contour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1533" selection-start-line="1533" selection-end-line="1533" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/cont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/RemoteBin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strecont/contplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
