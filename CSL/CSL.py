@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import imageio as imio
+# import imageio as imio
 import time
 T1 = time.time()
 N = 14
@@ -34,8 +34,6 @@ for Deg in [1, 5, 10, 15, 16.26, 20, 22.62, 25, 28.07, 30, 35, 36.86, 40, 43.6, 
     plt.yticks(np.linspace(-Cent, 3*Cent, 4*Cent+1))
     plt.xlabel('X')
     plt.ylabel('Y')
-
-
     Couple = np.intersect1d(CSLx, CSLy)
     vtest = np.array([CSLx, CSLy])
     # plt.scatter(Cent, Cent, color='r', marker='*')
@@ -53,23 +51,25 @@ for Deg in [1, 5, 10, 15, 16.26, 20, 22.62, 25, 28.07, 30, 35, 36.86, 40, 43.6, 
             plt.legend(frameon=True,loc=4)
             plt.tight_layout()
             plt.savefig('pic/Deg-%s.png'%Deg, dpi=200)
+            plt.show()
             plt.close('all')
-            images.append(imio.imread('pic/Deg-%s.png'%Deg))
+            # images.append(imio.imread('pic/Deg-%s.png'%Deg))
             print('Rotate 	%s 	degree	Sigma	%s' % (Deg, Sigma))
-    #        plt.show()
+
     else:
         Sigma = 'None'
         plt.text(-2.5, -3.5, 'by Mao', color='gray')
         plt.text(-2.5, 1.15*max(frame), r'$ \Sigma= None$ Rotate %s$^{o}$ ' % Deg,
                  color='darkblue', bbox=dict(facecolor='white', alpha=0.85, boxstyle="round"))
         p2 = plt.savefig('pic/Deg-%s.png'%Deg)
-        plt.legend(frameon=True,loc=4)
+        plt.legend(frameon=True, loc=4)
         plt.tight_layout()
         plt.savefig('pic/Deg-%s.png' % Deg, dpi=200)
+        plt.show()
         plt.close('all')
-        images.append(imio.imread('pic/Deg-%s.png' % Deg))
+        # images.append(imio.imread('pic/Deg-%s.png' % Deg))
         print('Rotate	%s	degree	Sigma	%s' %(Deg,Sigma))
-imio.mimsave('pic/CSL.gif', images, duration=2.5)
+# imio.mimsave('pic/CSL.gif', images, duration=2.5)
 T2 = time.time()
 
 print('All Done!  %s Seconds'%round(T2-T1))
