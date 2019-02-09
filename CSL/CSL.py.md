@@ -3,12 +3,12 @@
 ## Packages and Function
 ### Numpy
 
-1. 角度/弧度转换
+- 角度/弧度转换
 ```
     rad = np.deg2rad(degree)
     degree = np.rad2deg(rad)
 ```
-2. 矩阵的调整?
+- 矩阵的调整?
 ```
     CellX = np.reshape(SupCell[0], np.size(SupCell[0]), 1)
 ```

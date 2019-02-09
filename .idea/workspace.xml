@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatchExample.sh" beforeDir="false" afterPath="$PROJECT_DIR$/BatchExample.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSL/CSL.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/CSL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/CSL.py.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/CSL.py.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-16.26.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-16.26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-22.62.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-22.62.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-28.07.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-28.07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-36.86.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-36.86.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-43.6.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-43.6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-45.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-5.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSL/CSL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="396">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -75,8 +90,8 @@
         <entry file="file://$PROJECT_DIR$/CSL/CSL.py.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <first_editor relative-caret-position="288">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,7 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data</find>
       <find>data.attributes['DislocationAnalysis.total_line_length']</find>
       <find>fpath</find>
       <find>e</find>
@@ -124,6 +138,7 @@
       <find>s</find>
       <find>frame</find>
       <find>plt</find>
+      <find>%</find>
     </findStrings>
     <replaceStrings>
       <replace>RotAng</replace>
@@ -187,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +407,8 @@
       <workItem from="1549527213339" duration="253000" />
       <workItem from="1549527477812" duration="322000" />
       <workItem from="1549581878366" duration="94000" />
-      <workItem from="1549581985535" duration="6278000" />
+      <workItem from="1549581985535" duration="7681000" />
+      <workItem from="1549613162826" duration="4085000" />
     </task>
     <task id="LOCAL-00001" summary="plot remote">
       <created>1535550953083</created>
@@ -443,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549526882205</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Summary">
+      <created>1549593621877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549593621877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63914000" />
+    <option name="totallyTimeSpent" value="69402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +485,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12166489" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122732125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,11 +500,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.075773746" side_tool="true" weight="0.43114406" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32896176" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.9242262" weight="0.3019068" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.9242262" visible="true" weight="0.30084747" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.5995763" visible="true" weight="0.36392742" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.5995763" visible="true" weight="0.32924226" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.49906892" weight="0.24813233" />
       <window_info anchor="right" x="0" y="0" width="430" height="846" id="Documentation" order="5" sideWeight="0.40042374" side_tool="true" weight="0.47171825" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
@@ -523,7 +546,8 @@
     <MESSAGE value="add plot" />
     <MESSAGE value="Add Crack Identification" />
     <MESSAGE value="Add CSL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CSL" />
+    <MESSAGE value="Add Summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Summary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,6 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSL/CSL.py.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BatchExample.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -726,20 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSL/CSL.py.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSL/CSL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="396">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
