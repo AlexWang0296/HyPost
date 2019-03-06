@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1e02ede-5932-4b3e-878c-a6b0c559c9b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RotateCell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crackfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size-plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/CSL.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/CSL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/CSL.py.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/CSL.py.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-16.26.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-16.26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-22.62.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-22.62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-28.07.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-28.07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-36.86.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-36.86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-43.6.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-43.6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-45.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSL/pic/Deg-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSL/pic/Deg-5.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +18,10 @@
     <SUITE FILE_PATH="coverage/HyPost$ExCont.coverage" NAME="ExCont Coverage Results" MODIFIED="1535544712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$dxatest.coverage" NAME="dxatest Coverage Results" MODIFIED="1535614317013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$strbin.coverage" NAME="strbin Coverage Results" MODIFIED="1535424029747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
-    <SUITE FILE_PATH="coverage/HyPost$CrackSummary.coverage" NAME="CrackSummary Coverage Results" MODIFIED="1549181585229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Size-of-Crack" />
+    <SUITE FILE_PATH="coverage/HyPost$CrackSummary.coverage" NAME="CrackSummary Coverage Results" MODIFIED="1551668099505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Size-of-Crack" />
+    <SUITE FILE_PATH="coverage/HyPost$size_plot.coverage" NAME="size-plot Coverage Results" MODIFIED="1551753244783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HyPost$surf.coverage" NAME="surf Coverage Results" MODIFIED="1535421798308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/surfidf" />
+    <SUITE FILE_PATH="coverage/HyPost$crackfit.coverage" NAME="crackfit Coverage Results" MODIFIED="1551774115912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HyPost$contplot.coverage" NAME="contplot Coverage Results" MODIFIED="1537102468155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$CSL__1_.coverage" NAME="CSL (1) Coverage Results" MODIFIED="1549583029065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSL" />
     <SUITE FILE_PATH="coverage/HyPost$remote.coverage" NAME="remote Coverage Results" MODIFIED="1535510508551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,6 +31,7 @@
     <SUITE FILE_PATH="coverage/HyPost$dislen.coverage" NAME="dislen Coverage Results" MODIFIED="1535631764699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$gplot_link.coverage" NAME="gplot-link Coverage Results" MODIFIED="1549178579608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ggplot-link" />
     <SUITE FILE_PATH="coverage/HyPost$prepro.coverage" NAME="prepro Coverage Results" MODIFIED="1543491665543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepro" />
+    <SUITE FILE_PATH="coverage/HyPost$RotateCell.coverage" NAME="RotateCell Coverage Results" MODIFIED="1551840305494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HyPost$cont.coverage" NAME="cont Coverage Results" MODIFIED="1537065906536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
     <SUITE FILE_PATH="coverage/HyPost$txttest.coverage" NAME="txttest Coverage Results" MODIFIED="1535633593048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dxa" />
     <SUITE FILE_PATH="coverage/HyPost$RemoteBin.coverage" NAME="RemoteBin Coverage Results" MODIFIED="1537087352751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strecont" />
@@ -66,19 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BatchExample.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSL/CSL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="170">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="83" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -86,14 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSL/CSL.py.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RotateCell.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -109,25 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data.attributes['DislocationAnalysis.total_line_length']</find>
-      <find>fpath</find>
-      <find>e</find>
-      <find>linspace</find>
-      <find>bprop</find>
-      <find>V</find>
-      <find>pro</find>
-      <find>gaussian</find>
-      <find>slice</find>
-      <find>put</find>
-      <find>color</find>
-      <find>tit</find>
-      <find>ia</find>
-      <find>width</find>
-      <find>RotDeg</find>
-      <find>scatter</find>
-      <find>size</find>
-      <find>posx</find>
-      <find>RotAngl</find>
       <find>SupCell</find>
       <find>SHP1</find>
       <find>OFFSET</find>
@@ -139,6 +97,25 @@
       <find>frame</find>
       <find>plt</find>
       <find>%</find>
+      <find>dpi=200</find>
+      <find>l</find>
+      <find>ImagePath</find>
+      <find>lw</find>
+      <find>return</find>
+      <find>retrun</find>
+      <find>length</find>
+      <find>Length</find>
+      <find>WriteDir</find>
+      <find>size</find>
+      <find>pixelsPerMetric</find>
+      <find>width</find>
+      <find>W =</find>
+      <find>imio</find>
+      <find>gif</find>
+      <find>marker</find>
+      <find>rotat</find>
+      <find>mat</find>
+      <find>RtMtr</find>
     </findStrings>
     <replaceStrings>
       <replace>RotAng</replace>
@@ -150,6 +127,7 @@
       <replace>Offset</replace>
       <replace>Py</replace>
       <replace>CSLy</replace>
+      <replace>rotmat</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/strecont</dir>
@@ -186,13 +164,18 @@
         <option value="$PROJECT_DIR$/BatchExample.sh" />
         <option value="$PROJECT_DIR$/CSL/CSL.py.md" />
         <option value="$PROJECT_DIR$/CSL/CSL.py" />
+        <option value="$PROJECT_DIR$/Size-of-Crack/CrackSummary.py" />
+        <option value="$PROJECT_DIR$/size-plot.py" />
+        <option value="$PROJECT_DIR$/crackfit.py" />
+        <option value="$PROJECT_DIR$/RotateCell.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="139" />
-    <option name="width" value="940" />
-    <option name="height" value="810" />
+    <option name="x" value="39" />
+    <option name="y" value="35" />
+    <option name="width" value="950" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CSL">
+  <component name="RunManager" selected="Python.RotateCell">
     <configuration name="CSL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,25 +248,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSL/CSL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CSL" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HyPost" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSL/CSL.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -312,20 +276,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gplot-link" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RotateCell" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ggplot-link" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ggplot-link/gplot-link.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RotateCell.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="untitled0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crackfit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HyPost" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,14 +303,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CMS-Note/plotexample" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CMS-Note/plotexample/untitled0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crackfit.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="size-plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HyPost" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/size-plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -357,19 +340,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CrackSummary" />
-      <item itemvalue="Python.gplot-link" />
-      <item itemvalue="Python.untitled0" />
-      <item itemvalue="Python.CSL" />
       <item itemvalue="Python.CSL (1)" />
+      <item itemvalue="Python.size-plot" />
+      <item itemvalue="Python.CrackSummary" />
+      <item itemvalue="Python.crackfit" />
+      <item itemvalue="Python.RotateCell" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CSL" />
-        <item itemvalue="Python.CSL (1)" />
-        <item itemvalue="Python.CSL" />
-        <item itemvalue="Python.CSL" />
-        <item itemvalue="Python.untitled0" />
+        <item itemvalue="Python.RotateCell" />
+        <item itemvalue="Python.RotateCell" />
+        <item itemvalue="Python.crackfit" />
+        <item itemvalue="Python.size-plot" />
+        <item itemvalue="Python.crackfit" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +391,12 @@
       <workItem from="1549527477812" duration="322000" />
       <workItem from="1549581878366" duration="94000" />
       <workItem from="1549581985535" duration="7681000" />
-      <workItem from="1549613162826" duration="4085000" />
+      <workItem from="1549613162826" duration="4468000" />
+      <workItem from="1551667764638" duration="3163000" />
+      <workItem from="1551684814350" duration="1364000" />
+      <workItem from="1551748576141" duration="7933000" />
+      <workItem from="1551772521526" duration="5829000" />
+      <workItem from="1551839859400" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="plot remote">
       <created>1535550953083</created>
@@ -466,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549593621877</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加注释">
+      <created>1549672301693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549672301693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69402000" />
+    <option name="totallyTimeSpent" value="89410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,31 +477,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="35" width="1920" height="1045" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122732125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1280683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80843115" weight="0.28495762" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733192" weight="0.31461865" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80789757" weight="0.2849285" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4967983" weight="0.31353134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896176" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32896176" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32893288" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.075773746" side_tool="true" weight="0.43114406" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32896176" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.9242262" visible="true" weight="0.30084747" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.094983995" side_tool="true" weight="0.40154016" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32893288" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.905016" visible="true" weight="0.40044004" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.5995763" visible="true" weight="0.32924226" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49906892" weight="0.24813233" />
-      <window_info anchor="right" x="0" y="0" width="430" height="846" id="Documentation" order="5" sideWeight="0.40042374" side_tool="true" weight="0.47171825" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9357798" visible="true" weight="0.27854857" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.18933824" weight="0.37673426" />
+      <window_info anchor="right" x="0" y="0" width="430" height="846" id="Documentation" order="5" sideWeight="0.06422018" side_tool="true" visible="true" weight="0.27854857" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -547,7 +542,8 @@
     <MESSAGE value="Add Crack Identification" />
     <MESSAGE value="Add CSL" />
     <MESSAGE value="Add Summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Summary" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -706,20 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Size-of-Crack/CrackSummary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CMS-Note/plotexample/untitled0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMS-Note/plotexample/untitled0.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="839">
@@ -736,17 +719,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pic/Deg-5.png" />
     <entry file="file://$PROJECT_DIR$/CSL.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/py35/lib/python3.5/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="2780" column="39" selection-start-line="2780" selection-start-column="39" selection-end-line="2780" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSL/CSL.py.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
+          <first_editor relative-caret-position="272">
             <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
@@ -755,18 +731,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BatchExample.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py35/lib/python3.5/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1766">
+          <caret line="235" column="4" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LenCra.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="49" selection-start-line="165" selection-start-column="49" selection-end-line="165" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1532097866/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crackfit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/size-plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="125" column="44" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+          <folding>
+            <element signature="e#130#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Size-of-Crack/CrackSummary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSL/CSL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="83" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RotateCell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
