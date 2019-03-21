@@ -7,10 +7,22 @@ import numpy as np
 import imutils
 import cv2
 import matplotlib.pyplot as plt
+import os
 # import imageio as imio
 
 # GifImage = []
-ImageDir = '/home/alex/Documents/CMS-Note/crackimg-5/'
+# ImageDir = '/home/alex/Documents/CMS-Note/crackimg-5/ImgSource/'
+ImageDir = '/home/alex/Documents/12.26/ImgSource/'
+ImgOutPath = '/home/alex/Documents/12.26/ImgOut/'
+DataOutPath = '/home/alex/Documents/12.26/'
+try:
+    os.mkdir(ImgOutPath)
+    os.mkdir(DataOutPath)
+except(FileExistsError):
+    print('ImgOut Path: %s'%ImgOutPath)
+    print('ImgOut Path: %s'%DataOutPath)
+
+# cr0044.png
 # WriteDir = ImageDir+'/ImgOut/'
 # os.mkdir(WriteDir)
 lw = np.zeros(shape=(201, 2))
@@ -127,12 +139,12 @@ for frame in np.linspace(0, 200, 201):
             ImFrame = cv2.imshow("Image", orig)
 
             # GifImage.append(ImFrame)
-            plt.imsave(ImageDir+'/'+'crack%s.png' % inframe, orig, dpi=300)
+            plt.imsave(ImgOutPath+'crack%s.png' % inframe, orig, dpi=300)
             # plt.imshow(orig, interpolation='bicubic')
             #plt.imsave('dimension%s.png' % frame, orig)
             #plt.show()
 #imio.mimsave('crack.gif',GifImage, duration=1)
-np.savetxt('LenCra.txt', lw)
+np.savetxt(DataOutPath+'LenCra.txt', lw)
 N = 200
 plx = np.linspace(0, N, N+1)
 plt.scatter(plx, lw[:, 0])

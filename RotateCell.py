@@ -1,4 +1,5 @@
 # 输出为LAMMPS建模格式
+
 import numpy as np
 
 

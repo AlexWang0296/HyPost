@@ -104,6 +104,7 @@ def CrackLen(ImagePath):
             plt.imsave('dimension.png',orig)
 
 ImageDir = 'CrackImage/'
+ImageDir = '/home/alex/Documents/12.26/cr0044.png'
 lw = np.zeros(shape=(10,2))
 i = 0;
 for frame in np.linspace(0,8,9):

@@ -7,6 +7,12 @@ N = 14
 ScalFact = 1.25
 images = []
 
+
+def cellrotate(orginalcell, rotdegree):
+    rotmatrix = np.array([[np.cos(rotdegree), -np.sin(rotdegree)], [np.sin(rotdegree), np.cos(rotdegree)]])  # 二维旋转矩阵
+
+
+
 # [16.26, 22.62, 28.07, 36.86, 43.6] 为已知的特殊大角度晶界面
 for Deg in [1, 5, 10, 15, 16.26, 20, 22.62, 25, 28.07, 30, 35, 36.86, 40, 43.6, 45]:
     RtAng = np.deg2rad(Deg)  # 弧度/角度转换
@@ -68,7 +74,7 @@ for Deg in [1, 5, 10, 15, 16.26, 20, 22.62, 25, 28.07, 30, 35, 36.86, 40, 43.6, 
         plt.show()
         plt.close('all')
         # images.append(imio.imread('pic/Deg-%s.png' % Deg))
-        print('Rotate	%s	degree	Sigma	%s' %(Deg,Sigma))
+        print('Rotate	%s	degree	Sigma	%s' %(Deg, Sigma))
 # imio.mimsave('pic/CSL.gif', images, duration=2.5)
 
 T2 = time.time()
