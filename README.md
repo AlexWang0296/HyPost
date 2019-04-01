@@ -14,5 +14,5 @@ https://github.com/AlexWang0296/HyPost/tree/master/strecont
 https://github.com/AlexWang0296/HyPost/tree/master/surfidf
 ## scale-label.py Ovito试图中添加比例尺 
 https://github.com/AlexWang0296/HyPost/blob/master/scale-label.py
-## CLS 重合点阵计算 
+## CSL 重合点阵计算 
 https://github.com/AlexWang0296/HyPost/tree/master/CSL
