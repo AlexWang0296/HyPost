@@ -1,4 +1,4 @@
-# 分子动力学后处理工具包 HyPost
+# 微观缺陷分析前/后处理工具包 HyPost
 HyPost- An all in one molecular post processing platform 
 
 主要功能模块 Toolkits:
