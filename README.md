@@ -6,6 +6,7 @@ HyPost- An all in one molecular post processing platform
 https://github.com/AlexWang0296/HyPost/blob/master/profetch.py
 ## Size-of-Crack 识别裂纹长度
 https://github.com/AlexWang0296/HyPost/tree/master/Size-of-Crack
+2019年年5月获得国家版权局计算机软件著作权登记证书《基于Python的结构裂纹监测软件》
 ## dxa 位错分析 
 https://github.com/AlexWang0296/HyPost/tree/master/dxa
 ## strecont 绘制应力云图 
