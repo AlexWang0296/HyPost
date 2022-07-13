@@ -10,8 +10,8 @@ os.chdir(os.path.dirname(__file__))
 
 
 # setup SFTP
-transport = paramiko.Transport(('124.152.228.80', 10000))
-transport.connect(username='LUTRuizy', password='123456')
+transport = paramiko.Transport(('00000', 0000))
+transport.connect(username='0000', password='123456')
 sftp = paramiko.SFTPClient.from_transport(transport)
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
