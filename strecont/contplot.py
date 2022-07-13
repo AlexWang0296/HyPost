@@ -15,7 +15,7 @@ transport.connect(username='0000', password='123456')
 sftp = paramiko.SFTPClient.from_transport(transport)
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh_client.connect(hostname='124.152.228.80', port=10000, username='LUTRuizy', password='123456')
+ssh_client.connect(hostname='00', port=10000, username='00', password='00')
 sftp.put('RemoteBin.py', '/public1/home/LUTRuizy/RemoteBin.py')
 
 framlist = [2,100,150,160,170,180]
